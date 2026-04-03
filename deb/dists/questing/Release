@@ -1,0 +1,37 @@
+Origin: aquasecurity.github.io/trivy-repo/deb
+Label: github.io/aquasecurity
+Codename: questing
+Date: Fri, 03 Apr 2026 08:24:00 UTC
+Architectures: i386 amd64 arm64
+Components: main
+Description: Trivy repository
+MD5Sum:
+ dd5270252de3776a7a7dda77fb987717 474 main/binary-i386/Packages
+ 4b3cfd0a82007867d210428525121780 361 main/binary-i386/Packages.gz
+ 1ebcafd3074f837fbbc8ed505702646d 141 main/binary-i386/Release
+ 16a2afe8854d998414e071d75547357d 506 main/binary-amd64/Packages
+ 280c3ace18eb39e3d70c34b4ed718105 373 main/binary-amd64/Packages.gz
+ 824e42f6b275e3aaa20f89400e2a57cf 142 main/binary-amd64/Release
+ 3399f2d47be91b1eed2cc3393f3b8be9 476 main/binary-arm64/Packages
+ 1a0010ff713550a52d3dadbcb01d2f9f 360 main/binary-arm64/Packages.gz
+ b14d524c9a1a144c61c8c2dd22898adb 142 main/binary-arm64/Release
+SHA1:
+ ff19f7bc01aa949681e286d21c5837383dd1edc6 474 main/binary-i386/Packages
+ 204d304cec6e6603a164c273182c0d1f0d78f07d 361 main/binary-i386/Packages.gz
+ 1fced0281c7f7617829dce3ec71b8226167f6c51 141 main/binary-i386/Release
+ 08ff742695faedb03f4f697d0e2a6ad7f7ab2351 506 main/binary-amd64/Packages
+ fce06ac4c208a1762759b02c7f322be72f3881aa 373 main/binary-amd64/Packages.gz
+ ebf12139dd4253419e77480daf52716b936e7aed 142 main/binary-amd64/Release
+ 2e0c30fec63f7047de99ff16d45bdd2a431e5f59 476 main/binary-arm64/Packages
+ 1807b1353a5af0d0741f810e6ea0f40e063d0497 360 main/binary-arm64/Packages.gz
+ 72a9eaf1e37c42631d854b45bdfdeb6db0243e29 142 main/binary-arm64/Release
+SHA256:
+ 7322d38e7ed82afd000ec93faee753ebf2a5a8dc3e14d842bb7c1ed876a2a02a 474 main/binary-i386/Packages
+ eac74a51a5494f27f55701806c95675932f8a7d558c78ce5348b2050ef1ce7dd 361 main/binary-i386/Packages.gz
+ f05eefd36b7a51031a7ec72662c4cda37883cc2ac0d059118f5395910e3591aa 141 main/binary-i386/Release
+ 96b21f2e9ee324b541d8d623aa908dd65e7cef779995a731d4ffea9f523a654e 506 main/binary-amd64/Packages
+ e27454e6a229fa175804859e182de360dd8ff5659a6eb1716e971465715be058 373 main/binary-amd64/Packages.gz
+ 651e3d6eeb51a43ebcde90f70ab9547ab92c8650f7a37e3cbd7efe7b4c56c82d 142 main/binary-amd64/Release
+ 44e275634ec70203dbd521a0f3d6e0ab47bf45d596bf8397f24b39bce42c06a4 476 main/binary-arm64/Packages
+ 0e2cb6d94de8a3c8982b2bb9aa185996cac6e25b0b44607c3dee421ce655d255 360 main/binary-arm64/Packages.gz
+ b010fedc93a99be798db9dfa03bf5618f03dc8fbd96db0c73e4d0957b41902ff 142 main/binary-arm64/Release
