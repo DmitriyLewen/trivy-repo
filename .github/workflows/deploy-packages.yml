@@ -39,6 +39,11 @@ jobs:
           sudo apt-get -y update
           sudo apt-get -y install rpm reprepro createrepo-c distro-info
 
+      - name: Check GITHUB_TOKEN rate limit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api rate_limit --jq '.rate'
+
       - name: Download release assets
         env:
           # aquasecurity/trivy is public — GITHUB_TOKEN is used only to raise the API rate limit
