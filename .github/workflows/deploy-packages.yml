@@ -41,11 +41,8 @@ jobs:
 
       - name: Download release assets
         env:
-          # TODO: ORG_REPO_TOKEN will be renamed to a dedicated secret.
-          # Required fine-grained PAT permissions:
-          #   aquasecurity/trivy is public — no explicit permissions needed,
-          #   token is used only to avoid unauthenticated API rate limits
-          GH_TOKEN: ${{ secrets.ORG_REPO_TOKEN }}
+          # aquasecurity/trivy is public — GITHUB_TOKEN is used only to raise the API rate limit
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TRIVY_VERSION: ${{ inputs.version }}
         run: |
           gh release download "$TRIVY_VERSION" \
