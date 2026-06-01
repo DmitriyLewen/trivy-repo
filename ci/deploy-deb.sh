@@ -27,4 +27,4 @@ done
 # git runs inside `deb/`, so "git add ." stages only `deb/` contents.
 git add .
 git commit -m "Update deb packages"
-git push origin main
+git push origin HEAD

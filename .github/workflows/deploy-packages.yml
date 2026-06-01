@@ -51,7 +51,7 @@ jobs:
           TRIVY_VERSION: ${{ inputs.version }}
         run: |
           gh release download "$TRIVY_VERSION" \
-            --repo "$GITHUB_REPOSITORY_OWNER/trivy" \
+            --repo "aquasecurity/trivy" \
             --pattern "*.rpm" --pattern "*.deb" \
             --dir dist/
 
