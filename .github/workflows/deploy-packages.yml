@@ -17,7 +17,7 @@ concurrency:
 jobs:
   deploy-packages:
     name: Deploy rpm/deb packages
-    runs-on: ubuntu-2404-2core
+    runs-on: ubuntu-24.04
     steps:
       - name: Generate token for trivy-repo
         id: trivy-repo-token
