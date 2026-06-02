@@ -45,4 +45,4 @@ done
 
 git add rpm/
 git commit -m "Update rpm packages for Trivy ${TRIVY_VERSION}"
-git push origin main
+git push origin HEAD

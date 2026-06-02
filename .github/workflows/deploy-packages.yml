@@ -17,7 +17,7 @@ concurrency:
 jobs:
   deploy-packages:
     name: Deploy rpm/deb packages
-    runs-on: ubuntu-2404-2core
+    runs-on: ubuntu-24.04
     steps:
       - name: Generate token for trivy-repo
         id: trivy-repo-token
@@ -42,7 +42,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get -y update
-          sudo apt-get -y install rpm reprepro createrepo-c distro-info
+          sudo apt-get -y install rpm reprepro createrepo-c
 
       - name: Download release assets
         env:
